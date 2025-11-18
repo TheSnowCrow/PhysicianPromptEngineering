@@ -548,9 +548,18 @@ Let's practice identifying and managing common cranial findings in newborns.
     <p>Examine the clinical descriptions of different cranial findings in newborns. For each case, identify the finding, determine if it's normal/benign/pathological, explain the expected course, and provide appropriate parent counseling.</p>
   </div>
 
-  <details class="exercise-transcript">
+  <details class="exercise-transcript" open>
     <summary>📋 View Clinical Cases</summary>
-    <div class="transcript-content" id="transcript-content-nb-m2e1">Loading cases...</div>
+    <div class="transcript-content" id="transcript-content-nb-m2e1">
+**Case 1: Scalp Swelling**
+A 6-hour-old term infant delivered via vacuum-assisted vaginal delivery. On examination, there is a soft, edematous swelling on the right parietal region that extends across the sagittal suture. The swelling has a pitting quality when pressed. There is slight bruising overlying the area.
+
+**Case 2: Firm Scalp Mass**
+A 2-day-old term infant. Parents note a firm lump on the baby's head that wasn't present at birth but appeared after the first day. On examination, there is a well-circumscribed, fluctuant mass over the left parietal bone. The mass does not cross the sagittal suture. The edges are well-defined and firm.
+
+**Case 3: Fontanelle Assessment**
+A 3-day-old term infant with normal vital signs and good feeding. The anterior fontanelle measures approximately 2.5 cm x 2.5 cm, is soft and flat when the infant is upright and calm. Pulsations are felt. The posterior fontanelle is small, approximately 0.5 cm, triangular in shape.
+    </div>
   </details>
 
   <div class="exercise-editor">
@@ -620,29 +629,6 @@ Be specific and thorough!"></textarea>
 
 </div>
 
-<script src="/assets/js/newborn-exam-exercise.js"></script>
-<script>
-  (function() {
-    const scenarios = window.newbornScenarios;
-    const exercises = window.newbornExercises;
-
-    if (!scenarios || !exercises) {
-      console.error('Newborn course data not loaded');
-      return;
-    }
-
-    const exerciseConfig = exercises.newborn_m2e1;
-    const scenario = scenarios[exerciseConfig.scenario];
-
-    document.getElementById('transcript-content-nb-m2e1').textContent = scenario.scenario;
-
-    const exercise = new NewbornExercise('nb_m2e1', {
-      ...exerciseConfig,
-      scenario: scenario.scenario,
-      expectedFindings: scenario.expected_findings
-    });
-  })();
-</script>
 
 ---
 
@@ -667,9 +653,18 @@ Practice identifying normal and abnormal eye findings, with emphasis on the crit
     <p>Review eye examination findings in newborns. Identify the findings, recognize red flags that require urgent referral, differentiate benign from pathological conditions, and provide appropriate parent education.</p>
   </div>
 
-  <details class="exercise-transcript">
+  <details class="exercise-transcript" open>
     <summary>📋 View Eye Examination Cases</summary>
-    <div class="transcript-content" id="transcript-content-nb-m2e2">Loading cases...</div>
+    <div class="transcript-content" id="transcript-content-nb-m2e2">
+**Case 1: Red Patch on Eye**
+A 12-hour-old term infant delivered vaginally. Parents noticed a bright red patch on the white part of the baby's left eye. On examination, there is a well-demarcated area of bright red discoloration on the temporal sclera. The conjunctiva appears intact. When you perform the red reflex examination, you obtain a symmetric, bright red-orange reflex bilaterally. The infant is feeding well and has no other concerns.
+
+**Case 2: Absent Red Reflex**
+A 3-day-old term infant at routine newborn examination. When performing the red reflex test, you note that the right pupil appears white when light is shined through it, rather than the expected red-orange glow. The left eye has a normal red reflex. The infant appears otherwise healthy and is feeding normally.
+
+**Case 3: Eye Discharge**
+A 4-day-old term infant presents with purulent discharge from both eyes. The discharge is thick, yellow-green, and copious. The eyelids appear swollen and erythematous. The infant was born via vaginal delivery. Mother had prenatal care but unknown STI screening status.
+    </div>
   </details>
 
   <div class="exercise-editor">
@@ -739,25 +734,6 @@ Remember: Leukocoria requires URGENT ophthalmology referral!"></textarea>
 
 </div>
 
-<script>
-  (function() {
-    const scenarios = window.newbornScenarios;
-    const exercises = window.newbornExercises;
-
-    if (!scenarios || !exercises) return;
-
-    const exerciseConfig = exercises.newborn_m2e2;
-    const scenario = scenarios[exerciseConfig.scenario];
-
-    document.getElementById('transcript-content-nb-m2e2').textContent = scenario.scenario;
-
-    const exercise = new NewbornExercise('nb_m2e2', {
-      ...exerciseConfig,
-      scenario: scenario.scenario,
-      expectedFindings: scenario.expected_findings
-    });
-  })();
-</script>
 
 ---
 
@@ -782,9 +758,18 @@ Develop skills in identifying oral findings, assessing functional impact, and de
     <p>Examine oral cavity findings in newborns. Identify the findings, assess their functional significance (especially for feeding), determine need for intervention or referral, and provide comprehensive parent counseling.</p>
   </div>
 
-  <details class="exercise-transcript">
+  <details class="exercise-transcript" open>
     <summary>📋 View Oral Examination Cases</summary>
-    <div class="transcript-content" id="transcript-content-nb-m2e3">Loading cases...</div>
+    <div class="transcript-content" id="transcript-content-nb-m2e3">
+**Case 1: White Bumps on Palate**
+A 5-day-old term infant at routine examination. Parents ask about small white bumps they noticed on the roof of the baby's mouth. On examination of the oral cavity, you observe multiple 1-2mm white-yellow bumps along the midline of the hard palate. They are firm and cannot be wiped off with a swab. The infant is breastfeeding well with good latch. There are no other oral findings.
+
+**Case 2: Feeding Difficulty**
+A 10-day-old term infant presents with maternal complaints of painful breastfeeding and poor latch. Mother reports clicking sounds during feeding and that baby seems to slide off the nipple frequently. On examination, you note that when the infant cries, the tongue tip appears heart-shaped. When you lift the tongue, you observe that the lingual frenulum appears tight and extends nearly to the tip of the tongue. The infant has difficulty elevating the tongue to the palate.
+
+**Case 3: Visible Oral Defect**
+A newborn infant delivered 2 hours ago. On initial examination, you note a visible opening in the upper lip on the left side that extends through the nostril. The opening continues through the palate, exposing the nasal cavity. The infant is having difficulty with initial feeding attempts, with milk coming out of the nose.
+    </div>
   </details>
 
   <div class="exercise-editor">
@@ -858,25 +843,6 @@ Consider both immediate and long-term implications!"></textarea>
 
 </div>
 
-<script>
-  (function() {
-    const scenarios = window.newbornScenarios;
-    const exercises = window.newbornExercises;
-
-    if (!scenarios || !exercises) return;
-
-    const exerciseConfig = exercises.newborn_m2e3;
-    const scenario = scenarios[exerciseConfig.scenario];
-
-    document.getElementById('transcript-content-nb-m2e3').textContent = scenario.scenario;
-
-    const exercise = new NewbornExercise('nb_m2e3', {
-      ...exerciseConfig,
-      scenario: scenario.scenario,
-      expectedFindings: scenario.expected_findings
-    });
-  })();
-</script>
 
 ---
 
